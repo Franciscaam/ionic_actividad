@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Inicio" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Bienvenido a Altiro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button routerLink="/pasajero-dashboard">Ir a Dashboard Pasajero</ion-button>
+  <ion-button routerLink="/conductor-dashboard">Ir a Dashboard Conductor</ion-button>
+</ion-content>

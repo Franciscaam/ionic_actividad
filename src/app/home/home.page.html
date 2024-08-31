@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      AlToke
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      <ion-label>
+        Usuario
+      </ion-label>
+      <ion-input [(ngModel)]="usuario" slot="end" type="email" placeholder="email@domain.com"></ion-input>
+
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        Contraseña
+      </ion-label>
+      <ion-input [(ngModel)]="pass" slot="end" type="password" placeholder="Ingresar"></ion-input>
+
+    </ion-item>
+  </ion-list>
+  <ion-button (click)="ingresar()" expand="block"  color="success">Ingresar</ion-button>
+
+  <img id="aaa" src="https://files.oaiusercontent.com/file-2wdEgzCcXErxrNoio4cXkMTR?se=2024-08-31T01%3A35%3A48Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D9ea502ac-89d7-4476-91dc-4e3c1db5abb0.webp&sig=0WdSGC/eZhqLhKHfTpBWCf%2BVXEe1RKQ8Y5TscWUwimY%3D" alt="" srcset="">
+</ion-content>

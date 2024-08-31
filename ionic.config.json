@@ -1,0 +1,7 @@
+{
+  "name": "zorojuro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
